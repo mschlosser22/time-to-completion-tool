@@ -1,0 +1,61 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//Bulma
+@import "bulma";
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.content li + li {
+    margin-top: 0em;
+}
+
+.dropdown {
+	display: block!important;
+}
+
+.dropdown-menu {
+	width: 100%;
+	position: relative;
+}
+
+.v-expansion-panel__header .header__icon {
+	text-align: right;
+}
+
+.row.nav-hack {
+    display: flex;
+    width: 100%;
+}
+
+.navbar .navbar-nav .logo {
+    width: 100%;
+}
+
+.navbar .navbar-nav .logo img {
+    display: block;
+    max-width: 150px;
+}
+
+ul.navbar-nav.mr-auto.logo-hack {
+    margin: 0 auto;
+}
+
+.nav-name-pos-edit a {
+    padding-top: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+	.navbar > .container .nav-hack .navbar-brand {
+	    margin-left: 0;
+	}
+}
